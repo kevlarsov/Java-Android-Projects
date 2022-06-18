@@ -1,6 +1,6 @@
 package java1;
 
-public class Dog {
+public class dog {
 	String Breed;
 	String Color;
 	String Height;
@@ -16,7 +16,7 @@ public class Dog {
 		System.out.println("*** LAYS DOWN ***");
 	}
 	
-	public Dog(String breed, String color, String height, String weight) {
+	public dog(String breed, String color, String height, String weight) {
 		Breed = breed;
 		Color = color;
 		Height = height;
@@ -24,7 +24,7 @@ public class Dog {
 	}
 	
 	public static void main(String[] args) {
-		Dog hound = new Dog("Hound", "Brown", "2 feet", "60 pounds");
+		dog hound = new dog("Hound", "Brown", "2 feet", "60 pounds");
 		System.out.println("Breed: " + hound.Breed);
 		System.out.println("Color: " + hound.Color);
 		System.out.println("Height: " + hound.Height);
