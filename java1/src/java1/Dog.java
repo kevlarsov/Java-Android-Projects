@@ -1,22 +1,22 @@
 package java1;
 
-public class dog {
+public class Dog {
 	String Breed;
 	String Color;
 	String Height;
 	String Weight;
 	
-	static void shake() {
+	public static void shake() {
 		System.out.println("*** SHAKES ***");
 	}
-	static void sit() {
+	public static void sit() {
 		System.out.println("*** SITS ***");
 	}
-	static void layDown() {
+	public static void layDown() {
 		System.out.println("*** LAYS DOWN ***");
 	}
 	
-	public dog(String breed, String color, String height, String weight) {
+	public Dog(String breed, String color, String height, String weight) {
 		Breed = breed;
 		Color = color;
 		Height = height;
