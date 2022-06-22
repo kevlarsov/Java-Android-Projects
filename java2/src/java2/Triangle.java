@@ -1,15 +1,17 @@
 package java2;
 
 public class Triangle extends Shape {
-	int Base;
-	int Height;
+	public String Color;
+	public int Base;
+	public int Height;
 	
-	public Triangle(String name, int base, int height) {
-		super(name);
+	public Triangle(String color, int base, int height) {
+		Color = color;
 		Base = base;
 		Height = height;
 	}
 	
-	public static void main(String[] args) {
+	public void getArea() {
+		System.out.println("Area is: " + (Base * Height)/2);
 	}
 }

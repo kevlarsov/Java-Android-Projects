@@ -1,18 +1,17 @@
 package java2;
 
 public class Rectangle extends Shape {
-	public int Height = 5;
-	public int Width = 10;
+	public String Color;
+	public int Height;
+	public int Width;
 	
-	public Rectangle(String name, int height, int width) {
-		super(name);
+	public Rectangle(String color, int height, int width) {
+		Color = color;
 		Height = height;
 		Width = width;
 	}
 	
-	public static void main(String[] args) {
-		Rectangle R1 = new Rectangle("Rectangle 1", 5, 10);
-			System.out.println(R1.Name + " has a height of " + R1.Height + " and a width of " + R1.Width);
-			getArea();
+	public void getArea() {
+		System.out.println("Area is: " + (Height * Width));
 	}
 }
